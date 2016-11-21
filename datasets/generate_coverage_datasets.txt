@@ -1,0 +1,26 @@
+RUN apt-get install -y wget ncbiblast+ bedtools fastaq
+
+wget "http://www.ebi.ac.uk/ena/data/view/AL513382&display=fasta&download=fasta&filename=AL513382.fasta"
+mv AL513382\&display\=fasta\&download\=fasta\&filename\=AL513382.fasta AL513382.fasta
+
+wget http://pubmlst.org/data/alleles/senterica/aroC.tfa
+wget http://pubmlst.org/data/alleles/senterica/dnaN.tfa
+wget http://pubmlst.org/data/alleles/senterica/hemD.tfa
+wget http://pubmlst.org/data/alleles/senterica/hisD.tfa
+wget http://pubmlst.org/data/alleles/senterica/purE.tfa
+wget http://pubmlst.org/data/alleles/senterica/sucA.tfa	
+wget http://pubmlst.org/data/alleles/senterica/thrA.tfa
+
+cat *tfa > all_salmonella_alleles.fa
+
+
+makeblastdb -in  AL513382.fasta  -out ct18_db -dbtype nucl
+
+blastn -evalue 0.000001 -db  ct18_db -outfmt 6 -out gene_blast -query all_salmonella_alleles.fa
+
+grep 100.000 gene_blast | sort -g -k 12 | grep -v purE-631 | grep -v aroC-512 | awk '{if($9 > $10) print "ENA|AL513382|AL513382.1\t"$10-500"\t"$9+500; else print "ENA|AL513382|AL513382.1\t"$9-500"\t"$10+500}' > gene_coords_plus_flank.bed
+
+bedtools getfasta -fi  AL513382.fasta  -bed  gene_coords_plus_flank.bed -fo AL513382_mlst.fa
+
+for i in {1..30}; do fastaq to_perfect_reads --seed ${i} AL513382_mlst.fa - 400 20 ${i} 125 | fastaq deinterleave - CT18_mlstgenes_${i}x_1.fastq.gz CT18_mlstgenes_${i}x_2.fastq.gz ; done
+

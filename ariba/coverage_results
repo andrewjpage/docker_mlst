@@ -1,0 +1,290 @@
+# for x in {1..30}; do echo "_______________ $x ______________________";  cut -f2,5-8,9,10,13 ariba_coverage_output_${x}/report.tsv ; done
+_______________ 1 ______________________
+ref_name	flag	reads	cluster	ref_len	ref_base_assembled	pc_ident	ctg_cov
+dnaN.478	16	8	dnaN	501	287	100.0	1.7
+sucA.1	656	10	sucA	501	357	99.72	1.8
+thrA.9	16	10	thrA	501	329	100.0	1.7
+_______________ 2 ______________________
+ref_name	flag	reads	cluster	ref_len	ref_base_assembled	pc_ident	ctg_cov
+aroC.462	656	14	aroC	499	387	98.97	2.3
+aroC.462	656	14	aroC	499	387	98.97	2.3
+aroC.462	656	14	aroC	499	387	98.97	2.3
+aroC.462	656	14	aroC	499	387	98.97	2.3
+dnaN.437	512	14	dnaN	501	189	100.0	2.6
+dnaN.437	512	14	dnaN	501	141	96.45	2.1
+dnaN.437	512	14	dnaN	501	141	96.45	2.1
+dnaN.437	512	14	dnaN	501	141	96.45	2.1
+dnaN.437	512	14	dnaN	501	141	96.45	2.1
+dnaN.437	512	14	dnaN	501	141	96.45	2.1
+hemD.2	19	20	hemD	432	432	100.0	3.6
+hisD.820	512	14	hisD	500	278	98.56	2.7
+hisD.820	512	14	hisD	500	278	98.56	2.7
+hisD.820	512	14	hisD	500	278	98.56	2.7
+hisD.820	512	14	hisD	500	278	98.56	2.7
+hisD.820	512	14	hisD	500	93	98.92	2.3
+purE.1	659	12	purE	399	399	99.75	1.9
+sucA.1	16	18	sucA	501	315	100.0	2.7
+thrA.589	528	16	thrA	500	262	99.24	2.4
+thrA.589	528	16	thrA	500	262	99.24	2.4
+_______________ 3 ______________________
+ref_name	flag	reads	cluster	ref_len	ref_base_assembled	pc_ident	ctg_cov
+aroC.1	19	30	aroC	501	501	100.0	3.4
+dnaN.1	19	26	dnaN	501	501	100.0	3.5
+hemD.312	531	26	hemD	431	418	98.33	3.7
+hemD.312	531	26	hemD	431	418	98.33	3.7
+hemD.312	531	26	hemD	431	418	98.33	3.7
+hemD.312	531	26	hemD	431	418	98.33	3.7
+hemD.312	531	26	hemD	431	418	98.33	3.7
+hemD.312	531	26	hemD	431	418	98.33	3.7
+hisD.820	513	26	hisD	500	278	98.92	2.4
+hisD.820	513	26	hisD	500	278	98.92	2.4
+hisD.820	513	26	hisD	500	278	98.92	2.4
+hisD.820	513	26	hisD	500	221	98.65	4.1
+hisD.820	513	26	hisD	500	221	98.65	4.1
+hisD.820	513	26	hisD	500	221	98.65	4.1
+purE.1	19	26	purE	399	399	100.0	3.9
+sucA.1	19	26	sucA	501	501	100.0	3.4
+thrA.5	19	26	thrA	501	501	100.0	2.9
+_______________ 4 ______________________
+ref_name	flag	reads	cluster	ref_len	ref_base_assembled	pc_ident	ctg_cov
+aroC.1	19	40	aroC	501	501	100.0	4.5
+dnaN.1	19	40	dnaN	501	501	100.0	4.7
+hemD.2	19	24	hemD	432	432	100.0	3.5
+hisD.1	19	40	hisD	501	501	100.0	4.7
+purE.1	19	34	purE	399	399	100.0	4.3
+sucA.1	19	34	sucA	501	501	100.0	3.9
+thrA.526	16	26	thrA	501	333	100.0	3.4
+_______________ 5 ______________________
+ref_name	flag	reads	cluster	ref_len	ref_base_assembled	pc_ident	ctg_cov
+aroC.1	19	44	aroC	501	501	100.0	4.7
+dnaN.1	19	42	dnaN	501	501	100.0	4.8
+hemD.2	19	44	hemD	432	432	100.0	5.1
+hisD.1	19	44	hisD	501	501	100.0	5.5
+purE.1	19	36	purE	399	399	100.0	4.5
+sucA.1	19	44	sucA	501	501	100.0	4.7
+thrA.5	19	42	thrA	501	501	100.0	4.8
+_______________ 6 ______________________
+ref_name	flag	reads	cluster	ref_len	ref_base_assembled	pc_ident	ctg_cov
+aroC.1	19	58	aroC	501	501	100.0	5.8
+dnaN.1	19	54	dnaN	501	501	100.0	5.8
+hemD.2	19	40	hemD	432	432	100.0	4.6
+hisD.1	19	48	hisD	501	501	100.0	6.1
+purE.1	19	40	purE	399	399	100.0	4.9
+sucA.1	19	48	sucA	501	501	100.0	6.1
+thrA.5	19	58	thrA	501	501	100.0	6.5
+_______________ 7 ______________________
+ref_name	flag	reads	cluster	ref_len	ref_base_assembled	pc_ident	ctg_cov
+aroC.1	19	50	aroC	501	501	100.0	6.6
+dnaN.1	19	56	dnaN	501	501	100.0	6.3
+hemD.2	19	66	hemD	432	432	100.0	7.3
+hisD.1	19	62	hisD	501	501	100.0	6.4
+purE.1	19	52	purE	399	399	100.0	7.9
+sucA.1	19	74	sucA	501	501	100.0	8.5
+thrA.5	19	62	thrA	501	501	100.0	6.6
+_______________ 8 ______________________
+ref_name	flag	reads	cluster	ref_len	ref_base_assembled	pc_ident	ctg_cov
+aroC.1	19	72	aroC	501	501	100.0	7.6
+dnaN.1	19	78	dnaN	501	501	100.0	8.9
+hemD.2	19	76	hemD	432	432	100.0	8.5
+hisD.1	19	68	hisD	501	501	100.0	9.1
+purE.1	19	56	purE	399	399	100.0	6.6
+sucA.1	19	76	sucA	501	501	100.0	9.5
+thrA.5	19	76	thrA	501	501	100.0	7.9
+_______________ 9 ______________________
+ref_name	flag	reads	cluster	ref_len	ref_base_assembled	pc_ident	ctg_cov
+aroC.1	19	84	aroC	501	501	100.0	8.7
+dnaN.1	19	80	dnaN	501	501	100.0	8.1
+hemD.2	19	70	hemD	432	432	100.0	7.9
+hisD.1	19	66	hisD	501	501	100.0	7.6
+purE.1	19	62	purE	399	399	100.0	7.4
+sucA.1	19	82	sucA	501	501	100.0	8.3
+thrA.5	19	68	thrA	501	501	100.0	7.7
+_______________ 10 ______________________
+ref_name	flag	reads	cluster	ref_len	ref_base_assembled	pc_ident	ctg_cov
+aroC.1	19	86	aroC	501	501	100.0	8.9
+dnaN.1	19	106	dnaN	501	501	100.0	10.9
+hemD.2	19	80	hemD	432	432	100.0	9.1
+hisD.1	19	74	hisD	501	501	100.0	8.3
+purE.1	19	72	purE	399	399	100.0	10.4
+sucA.1	19	86	sucA	501	501	100.0	9.3
+thrA.5	19	80	thrA	501	501	100.0	8.7
+_______________ 11 ______________________
+ref_name	flag	reads	cluster	ref_len	ref_base_assembled	pc_ident	ctg_cov
+aroC.1	19	100	aroC	501	501	100.0	10.4
+dnaN.1	19	94	dnaN	501	501	100.0	10.3
+hemD.2	19	96	hemD	432	432	100.0	10.2
+hisD.1	19	96	hisD	501	501	100.0	11.3
+purE.1	19	84	purE	399	399	100.0	11.7
+sucA.1	19	100	sucA	501	501	100.0	10.7
+thrA.5	19	86	thrA	501	501	100.0	8.8
+_______________ 12 ______________________
+ref_name	flag	reads	cluster	ref_len	ref_base_assembled	pc_ident	ctg_cov
+aroC.1	19	124	aroC	501	501	100.0	12.6
+dnaN.1	19	104	dnaN	501	501	100.0	11.6
+hemD.2	19	100	hemD	432	432	100.0	11.2
+hisD.1	19	98	hisD	501	501	100.0	12.6
+purE.1	19	104	purE	399	399	100.0	14.5
+sucA.1	19	110	sucA	501	501	100.0	14.9
+thrA.5	19	110	thrA	501	501	100.0	12.0
+_______________ 13 ______________________
+ref_name	flag	reads	cluster	ref_len	ref_base_assembled	pc_ident	ctg_cov
+aroC.1	19	132	aroC	501	501	100.0	13.5
+dnaN.1	19	110	dnaN	501	501	100.0	12.8
+hemD.2	19	94	hemD	432	432	100.0	11.0
+hisD.1	19	128	hisD	501	501	100.0	15.4
+purE.1	19	114	purE	399	399	100.0	15.2
+sucA.1	19	116	sucA	501	501	100.0	15.9
+thrA.5	19	106	thrA	501	501	100.0	11.2
+_______________ 14 ______________________
+ref_name	flag	reads	cluster	ref_len	ref_base_assembled	pc_ident	ctg_cov
+aroC.1	19	130	aroC	501	501	100.0	13.5
+dnaN.1	19	126	dnaN	501	501	100.0	14.5
+hemD.2	19	130	hemD	432	432	100.0	14.9
+hisD.1	19	138	hisD	501	501	100.0	17.1
+purE.1	19	114	purE	399	399	100.0	15.8
+sucA.1	19	132	sucA	501	501	100.0	15.9
+thrA.5	19	126	thrA	501	501	100.0	13.5
+_______________ 15 ______________________
+ref_name	flag	reads	cluster	ref_len	ref_base_assembled	pc_ident	ctg_cov
+aroC.1	19	134	aroC	501	501	100.0	13.3
+dnaN.1	19	138	dnaN	501	501	100.0	14.1
+hemD.2	19	116	hemD	432	432	100.0	13.7
+hisD.1	19	144	hisD	501	501	100.0	18.5
+purE.1	19	120	purE	399	399	100.0	16.2
+sucA.1	19	148	sucA	501	501	100.0	19.7
+thrA.5	19	142	thrA	501	501	100.0	14.5
+_______________ 16 ______________________
+ref_name	flag	reads	cluster	ref_len	ref_base_assembled	pc_ident	ctg_cov
+aroC.1	19	142	aroC	501	501	100.0	14.2
+dnaN.1	19	128	dnaN	501	501	100.0	14.1
+hemD.2	19	140	hemD	432	432	100.0	15.9
+hisD.1	19	138	hisD	501	501	100.0	16.8
+purE.1	19	116	purE	399	399	100.0	16.3
+sucA.1	19	140	sucA	501	501	100.0	20.2
+thrA.5	19	154	thrA	501	501	100.0	16.1
+_______________ 17 ______________________
+ref_name	flag	reads	cluster	ref_len	ref_base_assembled	pc_ident	ctg_cov
+aroC.1	19	146	aroC	501	501	100.0	15.2
+dnaN.1	19	156	dnaN	501	501	100.0	16.7
+hemD.2	19	126	hemD	432	432	100.0	13.3
+hisD.1	19	160	hisD	501	501	100.0	19.1
+purE.1	19	138	purE	399	399	100.0	16.3
+sucA.1	19	162	sucA	501	501	100.0	22.4
+thrA.5	19	146	thrA	501	501	100.0	15.3
+_______________ 18 ______________________
+ref_name	flag	reads	cluster	ref_len	ref_base_assembled	pc_ident	ctg_cov
+aroC.1	19	158	aroC	501	501	100.0	16.2
+dnaN.1	19	170	dnaN	501	501	100.0	18.2
+hemD.2	19	166	hemD	432	432	100.0	18.3
+hisD.1	19	162	hisD	501	501	100.0	19.6
+purE.1	19	164	purE	399	399	100.0	20.2
+sucA.1	19	154	sucA	501	501	100.0	18.7
+thrA.5	19	160	thrA	501	501	100.0	16.8
+_______________ 19 ______________________
+ref_name	flag	reads	cluster	ref_len	ref_base_assembled	pc_ident	ctg_cov
+aroC.1	19	192	aroC	501	501	100.0	19.7
+dnaN.1	19	170	dnaN	501	501	100.0	17.0
+hemD.2	19	164	hemD	432	432	100.0	18.4
+hisD.1	19	182	hisD	501	501	100.0	23.6
+purE.1	19	132	purE	399	399	100.0	18.9
+sucA.1	19	164	sucA	501	501	100.0	20.4
+thrA.5	19	180	thrA	501	501	100.0	18.6
+_______________ 20 ______________________
+ref_name	flag	reads	cluster	ref_len	ref_base_assembled	pc_ident	ctg_cov
+aroC.1	19	196	aroC	501	501	100.0	19.5
+dnaN.1	19	188	dnaN	501	501	100.0	22.0
+hemD.2	19	158	hemD	432	432	100.0	17.6
+hisD.1	19	154	hisD	501	501	100.0	17.1
+purE.1	19	134	purE	399	399	100.0	19.1
+sucA.1	19	182	sucA	501	501	100.0	23.9
+thrA.5	19	182	thrA	501	501	100.0	19.0
+_______________ 21 ______________________
+ref_name	flag	reads	cluster	ref_len	ref_base_assembled	pc_ident	ctg_cov
+aroC.1	19	194	aroC	501	501	100.0	19.9
+dnaN.1	19	208	dnaN	501	501	100.0	21.9
+hemD.2	19	168	hemD	432	432	100.0	19.3
+hisD.1	19	184	hisD	501	501	100.0	21.7
+purE.1	19	186	purE	399	399	100.0	24.0
+sucA.1	19	198	sucA	501	501	100.0	21.7
+thrA.5	19	170	thrA	501	501	100.0	17.9
+_______________ 22 ______________________
+ref_name	flag	reads	cluster	ref_len	ref_base_assembled	pc_ident	ctg_cov
+aroC.1	19	202	aroC	501	501	100.0	20.0
+dnaN.1	19	206	dnaN	501	501	100.0	23.2
+hemD.2	19	168	hemD	432	432	100.0	19.3
+hisD.1	19	190	hisD	501	501	100.0	21.4
+purE.1	19	168	purE	399	399	100.0	23.2
+sucA.1	19	198	sucA	501	501	100.0	25.4
+thrA.5	19	188	thrA	501	501	100.0	19.3
+_______________ 23 ______________________
+ref_name	flag	reads	cluster	ref_len	ref_base_assembled	pc_ident	ctg_cov
+aroC.1	19	192	aroC	501	501	100.0	19.2
+dnaN.1	19	206	dnaN	501	501	100.0	22.4
+hemD.2	19	196	hemD	432	432	100.0	22.2
+hisD.1	19	208	hisD	501	501	100.0	21.3
+purE.1	19	186	purE	399	399	100.0	23.1
+sucA.1	19	222	sucA	501	501	100.0	28.7
+thrA.5	19	190	thrA	501	501	100.0	19.5
+_______________ 24 ______________________
+ref_name	flag	reads	cluster	ref_len	ref_base_assembled	pc_ident	ctg_cov
+aroC.1	19	210	aroC	501	501	100.0	20.7
+dnaN.1	19	184	dnaN	501	501	100.0	21.0
+hemD.2	19	186	hemD	432	432	100.0	21.4
+hisD.1	19	208	hisD	501	501	100.0	24.7
+purE.1	19	198	purE	399	399	100.0	26.0
+sucA.1	19	210	sucA	501	501	100.0	29.8
+thrA.5	19	204	thrA	501	501	100.0	20.4
+_______________ 25 ______________________
+ref_name	flag	reads	cluster	ref_len	ref_base_assembled	pc_ident	ctg_cov
+aroC.1	19	204	aroC	501	501	100.0	20.5
+dnaN.1	19	222	dnaN	501	501	100.0	23.4
+hemD.2	19	212	hemD	432	432	100.0	24.0
+hisD.1	19	230	hisD	501	501	100.0	26.1
+purE.1	19	198	purE	399	399	100.0	24.9
+sucA.1	19	200	sucA	501	501	100.0	26.3
+thrA.5	19	220	thrA	501	501	100.0	21.1
+_______________ 26 ______________________
+ref_name	flag	reads	cluster	ref_len	ref_base_assembled	pc_ident	ctg_cov
+aroC.1	19	236	aroC	501	501	100.0	23.5
+dnaN.1	19	238	dnaN	501	501	100.0	25.1
+hemD.2	19	224	hemD	432	432	100.0	24.6
+hisD.1	19	250	hisD	501	501	100.0	29.0
+purE.1	19	206	purE	399	399	100.0	26.7
+sucA.1	19	236	sucA	501	501	100.0	30.8
+thrA.5	19	226	thrA	501	501	100.0	23.3
+_______________ 27 ______________________
+ref_name	flag	reads	cluster	ref_len	ref_base_assembled	pc_ident	ctg_cov
+aroC.1	19	240	aroC	501	501	100.0	24.8
+dnaN.1	19	250	dnaN	501	501	100.0	26.2
+hemD.2	19	208	hemD	432	432	100.0	22.2
+hisD.1	19	248	hisD	501	501	100.0	28.4
+purE.1	19	208	purE	399	399	100.0	27.4
+sucA.1	19	238	sucA	501	501	100.0	30.4
+thrA.5	19	250	thrA	501	501	100.0	25.3
+_______________ 28 ______________________
+ref_name	flag	reads	cluster	ref_len	ref_base_assembled	pc_ident	ctg_cov
+aroC.1	19	260	aroC	501	501	100.0	25.4
+dnaN.1	19	240	dnaN	501	501	100.0	26.5
+hemD.2	19	234	hemD	432	432	100.0	27.3
+hisD.1	19	268	hisD	501	501	100.0	27.0
+purE.1	19	224	purE	399	399	100.0	29.5
+sucA.1	19	252	sucA	501	501	100.0	27.3
+thrA.5	19	246	thrA	501	501	100.0	24.6
+_______________ 29 ______________________
+ref_name	flag	reads	cluster	ref_len	ref_base_assembled	pc_ident	ctg_cov
+aroC.1	19	254	aroC	501	501	100.0	25.4
+dnaN.1	19	264	dnaN	501	501	100.0	27.1
+hemD.2	19	224	hemD	432	432	100.0	24.5
+hisD.1	19	248	hisD	501	501	100.0	29.6
+purE.1	19	230	purE	399	399	100.0	29.9
+sucA.1	19	288	sucA	501	501	100.0	28.7
+thrA.5	19	246	thrA	501	501	100.0	24.7
+_______________ 30 ______________________
+ref_name	flag	reads	cluster	ref_len	ref_base_assembled	pc_ident	ctg_cov
+aroC.1	19	256	aroC	501	501	100.0	26.0
+dnaN.1	19	272	dnaN	501	501	100.0	27.6
+hemD.2	19	246	hemD	432	432	100.0	28.0
+hisD.1	19	286	hisD	501	501	100.0	31.8
+purE.1	19	218	purE	399	399	100.0	28.9
+sucA.1	19	280	sucA	501	501	100.0	27.8
+thrA.5	19	256	thrA	501	501	100.0	26.2
