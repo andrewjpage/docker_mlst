@@ -13,7 +13,7 @@ RUN apt-get update -qq && apt-get install -y git bowtie2 cd-hit fastaq libc6 lib
 #
 # Get the latest code from github and install
 #
-RUN git clone -b pubmlst https://github.com/sanger-pathogens/ariba.git && cd ariba && python3 setup.py install
+RUN git clone -b pubmlst https://github.com/martinghunt/ariba.git && cd ariba && python3 setup.py install
 
 RUN cd / && ariba pubmlstget 'Salmonella enterica' salmonella_db
 

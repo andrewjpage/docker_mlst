@@ -16,6 +16,7 @@ INPUT_DIRECTORY=/data
 SOFTWARE_NAME=srst2
 
 mkdir -p $OUTPUT_DIRECTORY
+mkdir -p $HOST_BASE/$SOFTWARE_NAME
 for FORWARD_FILE in $(find ${HOST_BASE} -type f -name "*_1.fastq.gz");
   do
     FORWARD_FILE=${FORWARD_FILE/${HOST_BASE}/${INPUT_DIRECTORY}}
