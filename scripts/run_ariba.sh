@@ -13,6 +13,7 @@ OUTPUT_DIRECTORY=$2
 DOCKER_HASH=$3
 
 INPUT_DIRECTORY=/data
+SOFTWARE_NAME=ariba
 
 mkdir -p $OUTPUT_DIRECTORY
 for FORWARD_FILE in $(find ${HOST_BASE} -type f -name "*_1.fastq.gz");
@@ -21,5 +22,5 @@ for FORWARD_FILE in $(find ${HOST_BASE} -type f -name "*_1.fastq.gz");
     REVERSE_FILE=${FORWARD_FILE/_1.fastq.gz/_2.fastq.gz}
     BASE_NAME=${FORWARD_FILE/_1.fastq.gz/results}
     BASE_NAME=${BASE_NAME##*/}
-    { time docker run --rm -v ${HOST_BASE}:/data ${DOCKER_HASH} ariba run /salmonella_db/ref_db ${FORWARD_FILE} ${REVERSE_FILE} ${OUTPUT_DIRECTORY}/output_${BASE_NAME} > ${OUTPUT_DIRECTORY}/results_${BASE_NAME} ; }  2> ${HOST_BASE}/ariba/timings_${BASE_NAME}
+    { time docker run --rm -v ${HOST_BASE}:/data ${DOCKER_HASH} ariba run /salmonella_db/ref_db ${FORWARD_FILE} ${REVERSE_FILE} ${OUTPUT_DIRECTORY}/output_${BASE_NAME} > ${OUTPUT_DIRECTORY}/results_${BASE_NAME} ; }  2> ${HOST_BASE}/${SOFTWARE_NAME}/timings_${BASE_NAME}
 done
