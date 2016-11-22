@@ -23,5 +23,5 @@ for FORWARD_FILE in $(find ${HOST_BASE} -type f -name "*_1.fastq.gz");
     REVERSE_FILE=${FORWARD_FILE/_1.fastq.gz/_2.fastq.gz}
     BASE_NAME=${FORWARD_FILE/_1.fastq.gz/results}
     BASE_NAME=${BASE_NAME##*/}
-    { time docker run --rm -v ${HOST_BASE}:/data ${DOCKER_HASH} stringMLST.py --predict -1 ${FORWARD_FILE} -2 ${REVERSE_FILE} -p -k 35 -P /stringMLST/SE > ${OUTPUT_DIRECTORY}/output_${BASE_NAME} ; }  2> ${HOST_BASE}/${SOFTWARE_NAME}/timings_${BASE_NAME}
+    { time docker run --rm -v ${HOST_BASE}:/data ${DOCKER_HASH} stringMLST.py --predict -1 ${FORWARD_FILE} -2 ${REVERSE_FILE} -p -k 35 -P /stringMLST/SE > ${HOST_BASE}/${SOFTWARE_NAME}/output_${BASE_NAME} ; }  2> ${HOST_BASE}/${SOFTWARE_NAME}/timings_${BASE_NAME}
 done
