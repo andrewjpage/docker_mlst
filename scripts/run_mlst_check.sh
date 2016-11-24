@@ -23,7 +23,7 @@ for FASTA_FILE in $(find ${HOST_BASE} -type f -name "contigs.fasta");
     BASE_NAME=${FASTA_FILE/\/contigs.fasta/}
     BASE_NAME={ basename $BASE_NAME }
     BASE_NAME=${BASE_NAME##*/}
-    { time docker run --rm -v ${HOST_BASE}:/data ${DOCKER_HASH} get_sequence_type -s 'Salmonella enterica' -o ${OUTPUT_DIRECTORY}/output_${BASE_NAME}  ${FASTA_FILE} > ${HOST_BASE}/${SOFTWARE_NAME}/output_${BASE_NAME} ; }  2> ${HOST_BASE}/${SOFTWARE_NAME}/timings_${BASE_NAME}
+    { time docker run --rm -v ${HOST_BASE}:/data ${DOCKER_HASH} get_sequence_type -s 'Salmonella enterica' -o ${OUTPUT_DIRECTORY}/results_${BASE_NAME}  ${FASTA_FILE} > ${HOST_BASE}/${SOFTWARE_NAME}/output_${BASE_NAME} ; }  2> ${HOST_BASE}/${SOFTWARE_NAME}/timings_${BASE_NAME}
 done
 
 
