@@ -1,6 +1,7 @@
 #! /bin/bash
 # Given a directory of FASTQ files and an output directory, produce assemblies with spades
-# run_most.sh /mnt/docker/data/coverage /data /data/fastas
+# assemble_with_spades.sh /mnt/docker/data/coverage /data /data/fastas
+
 
 if [ $# -ne 3 ]
 then

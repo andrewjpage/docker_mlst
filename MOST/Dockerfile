@@ -11,3 +11,6 @@ ENV PATH /MOST:/samtools-0.1.18:$PATH
 ENV PYTHONPATH /MOST/modules:$PYTHONPATH
 
 WORKDIR /data
+
+#grep real timings_CT18_mlstgenes_* | awk -F '_'  '{print $4}' |sed 's/xresults:real\t/\t=/' | sed 's/m/*60+/' | sed 's/s//'
+# du . --max-depth=1 | sort | sed 's/.\/output_CT18_mlstgenes_//' | sed 's/xresults//'
