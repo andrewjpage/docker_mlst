@@ -1,6 +1,6 @@
 #! /bin/bash
 # Given a directory containing spades assemblies, and an output directory, run using Docker.
-# run_mlst.sh /mnt/docker/data/coverage /data/mlst_check ed6dcb29bba5
+# run_mlst_check.sh /mnt/docker/data/coverage /data/mlst_check d7ba2f6c9b78
 
 if [ $# -ne 3 ]
 then
@@ -22,8 +22,8 @@ for FASTA_FILE in $(find ${HOST_BASE} -type f -name "contigs.fasta");
     FASTA_FILE=${FASTA_FILE/${HOST_BASE}/${INPUT_DIRECTORY}}
     BASE_NAME=${FASTA_FILE/\/contigs.fasta/}
     BASE_NAME={ basename $BASE_NAME }
-    
-    { time docker run --rm -v ${HOST_BASE}:/data ${DOCKER_HASH} get_sequence_type -s 'Salmonella enterica' ${FASTA_FILE} > ${HOST_BASE}/${SOFTWARE_NAME}/output_${BASE_NAME} ; }  2> ${HOST_BASE}/${SOFTWARE_NAME}/timings_${BASE_NAME}
+    BASE_NAME=${BASE_NAME##*/}
+    { time docker run --rm -v ${HOST_BASE}:/data ${DOCKER_HASH} get_sequence_type -s 'Salmonella enterica' -o ${OUTPUT_DIRECTORY}/output_${BASE_NAME}  ${FASTA_FILE} > ${HOST_BASE}/${SOFTWARE_NAME}/output_${BASE_NAME} ; }  2> ${HOST_BASE}/${SOFTWARE_NAME}/timings_${BASE_NAME}
 done
 
 

@@ -22,7 +22,7 @@ for FASTA_FILE in $(find ${HOST_BASE} -type f -name "contigs.fasta");
     FASTA_FILE=${FASTA_FILE/${HOST_BASE}/${INPUT_DIRECTORY}}
     BASE_NAME=${FASTA_FILE/\/contigs.fasta/}
     BASE_NAME={ basename $BASE_NAME }
-    
+    BASE_NAME=${BASE_NAME##*/}
     { time docker run --rm -v ${HOST_BASE}:/data ${DOCKER_HASH} mlst ${FASTA_FILE} > ${HOST_BASE}/${SOFTWARE_NAME}/output_${BASE_NAME} ; }  2> ${HOST_BASE}/${SOFTWARE_NAME}/timings_${BASE_NAME}
 done
 
