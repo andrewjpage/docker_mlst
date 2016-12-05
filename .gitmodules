@@ -1,3 +1,0 @@
-[submodule "mlst_CGE/cge-tools-docker"]
-	path = mlst_CGE/cge-tools-docker
-	url = https://bitbucket.org/genomicepidemiology/cge-tools-docker.git

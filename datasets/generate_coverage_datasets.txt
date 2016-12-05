@@ -24,3 +24,27 @@ bedtools getfasta -fi  AL513382.fasta  -bed  gene_coords_plus_flank.bed -fo AL51
 
 for i in {1..30}; do fastaq to_perfect_reads --seed ${i} AL513382_mlst.fa - 400 20 ${i} 125 | fastaq deinterleave - CT18_mlstgenes_${i}x_1.fastq.gz CT18_mlstgenes_${i}x_2.fastq.gz ; done
 
+==========
+# Mixed samples
+
+# CT18
+for i in {1..50}; do fastaq to_perfect_reads --seed ${i} AL513382_mlst.fa - 400 20 ${i} 125 | fastaq deinterleave - CT18_mlstgenes_${i}x_1.fastq.gz CT18_mlstgenes_${i}x_2.fastq.gz ; done
+
+# Get Weltevreden
+wget "http://www.ebi.ac.uk/ena/data/view/LN890518&display=fasta&download=fasta&filename=LN890518.fasta"
+mv LN890518\&display\=fasta\&download\=fasta\&filename\=LN890518.fasta LN890518.fasta
+
+makeblastdb -in  LN890518.fasta  -out welt_db -dbtype nucl
+
+blastn -evalue 0.000001 -db  welt_db -outfmt 6 -out gene_blast -query all_salmonella_alleles.fa
+
+grep 100.000 gene_blast | sort -g -k 12 | grep -v purE-631 | awk '{if($9 > $10) print "ENA|LN890518|LN890518.1\t"$10-500"\t"$9+500; else print "ENA|LN890518|LN890518.1\t"$9-500"\t"$10+500}' > gene_coords_plus_flank.bed
+
+bedtools getfasta -fi  LN890518.fasta  -bed  gene_coords_plus_flank.bed -fo Welt_mlst.fa
+
+for i in {1..50}; do fastaq to_perfect_reads --seed ${i} Welt_mlst.fa - 400 20 ${i} 125 | fastaq deinterleave - Welt_mlstgenes_${i}x_1.fastq.gz Welt_mlstgenes_${i}x_2.fastq.gz ; done
+
+cd ..
+
+for i in {1..49}; do cat Weltevreden/Welt_mlstgenes_${i}x_1.fastq.gz CT18/CT18_mlstgenes_$((50-i))x_1.fastq.gz  > combined/mixed_welt_${i}_CT18_$((50-i))_1.fastq.gz ; done
+for i in {1..49}; do cat Weltevreden/Welt_mlstgenes_${i}x_2.fastq.gz CT18/CT18_mlstgenes_$((50-i))x_2.fastq.gz  > combined/mixed_welt_${i}_CT18_$((50-i))_2.fastq.gz ; done
