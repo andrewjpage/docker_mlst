@@ -1,6 +1,6 @@
 #! /bin/bash
 # Given a directory containing FASTQ files, and an output directory, run using Docker.
-# run_stringMLST.sh /mnt/data/coverage /data/stringMLST stringMLST
+# run_stringMLST.sh /mnt/data/coverage /data/stringMLST stringmlst
 
 if [ $# -ne 3 ]
 then

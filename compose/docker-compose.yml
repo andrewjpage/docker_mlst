@@ -12,5 +12,5 @@ services:
     build: ../spades
   srst2:
     build: ../srst2
-  stringMLST:
-    build: ../stringMLST
+  stringmlst:
+    build: ../stringmlst
