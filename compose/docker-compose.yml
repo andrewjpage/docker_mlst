@@ -6,8 +6,8 @@ services:
     build: ../mlst
   mlst_check:
     build: ../mlst_check 
-  MOST:
-    build: ../MOST
+  most:
+    build: ../most
   spades:
     build: ../spades
   srst2:
