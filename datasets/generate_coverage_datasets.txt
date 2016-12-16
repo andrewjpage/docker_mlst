@@ -48,3 +48,6 @@ cd ..
 
 for i in {1..49}; do cat Weltevreden/Welt_mlstgenes_${i}x_1.fastq.gz CT18/CT18_mlstgenes_$((50-i))x_1.fastq.gz  > combined/mixed_welt_${i}_CT18_$((50-i))_1.fastq.gz ; done
 for i in {1..49}; do cat Weltevreden/Welt_mlstgenes_${i}x_2.fastq.gz CT18/CT18_mlstgenes_$((50-i))x_2.fastq.gz  > combined/mixed_welt_${i}_CT18_$((50-i))_2.fastq.gz ; done
+
+SRST2
+#cat *__results.txt | grep -v Sample | sed 's/mixed_welt_//' | sed 's/_CT18_/\t/' |sort -n

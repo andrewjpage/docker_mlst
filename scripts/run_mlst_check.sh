@@ -1,6 +1,6 @@
 #! /bin/bash
 # Given a directory containing spades assemblies, and an output directory, run using Docker.
-# run_mlst_check.sh /mnt/docker/data/coverage /data/mlst_check d7ba2f6c9b78
+# run_mlst_check.sh /mnt/data/coverage /data/mlst_check mlst_check
 
 if [ $# -ne 3 ]
 then

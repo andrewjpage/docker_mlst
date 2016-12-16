@@ -1,6 +1,6 @@
 #! /bin/bash
 # Given a directory containing FASTQ files, and an output directory, run using Docker.
-# run_srst2.sh /mnt/docker/data/coverage /data/srst2 8fa40352bad8
+# run_srst2.sh /mnt/data/coverage /data/srst2 srst2
 
 if [ $# -ne 3 ]
 then

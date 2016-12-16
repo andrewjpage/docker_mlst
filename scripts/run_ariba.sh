@@ -1,6 +1,6 @@
 #! /bin/bash
 # Given a directory containing FASTQ files, and an output directory, run using Docker.
-# run_ariba.sh /mnt/docker/data/coverage /data/ariba 5ae1c974206c
+# run_ariba.sh /mnt/data/coverage /data/ariba ariba
 
 if [ $# -ne 3 ]
 then

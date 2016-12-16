@@ -1,0 +1,246 @@
+Mix	ST	Software
+1	Typhi	stringMLST
+2	Typhi	stringMLST
+3	Typhi	stringMLST
+4	Typhi	stringMLST
+5	Typhi	stringMLST
+6	Typhi	stringMLST
+7	Typhi	stringMLST
+8	Typhi	stringMLST
+9	Typhi	stringMLST
+10	Typhi	stringMLST
+11	Typhi	stringMLST
+12	Typhi	stringMLST
+13	Typhi	stringMLST
+14	Typhi	stringMLST
+15	Typhi	stringMLST
+16	Typhi	stringMLST
+17	Typhi	stringMLST
+18	Typhi	stringMLST
+19	False Positive	stringMLST
+20	False Positive	stringMLST
+21	Low confidence	stringMLST
+22	Low confidence	stringMLST
+23	Low confidence	stringMLST
+24	Low confidence	stringMLST
+25	Low confidence	stringMLST
+26	Low confidence	stringMLST
+27	Weltevreden	stringMLST
+28	Weltevreden	stringMLST
+29	Low confidence	stringMLST
+30	Low confidence	stringMLST
+31	Low confidence	stringMLST
+32	Weltevreden	stringMLST
+33	Weltevreden	stringMLST
+34	Weltevreden	stringMLST
+35	Weltevreden	stringMLST
+36	Weltevreden	stringMLST
+37	Weltevreden	stringMLST
+38	Weltevreden	stringMLST
+39	Weltevreden	stringMLST
+40	Weltevreden	stringMLST
+41	Weltevreden	stringMLST
+42	Weltevreden	stringMLST
+43	Weltevreden	stringMLST
+44	Weltevreden	stringMLST
+45	Weltevreden	stringMLST
+46	Weltevreden	stringMLST
+47	Weltevreden	stringMLST
+48	Weltevreden	stringMLST
+49	Weltevreden	stringMLST
+1	Typhi	SRST2
+2	Typhi	SRST2
+3	Typhi	SRST2
+4	Typhi	SRST2
+5	Typhi	SRST2
+6	Typhi	SRST2
+7	Typhi	SRST2
+8	Typhi	SRST2
+9	Typhi	SRST2
+10	Typhi	SRST2
+11	Low confidence	SRST2
+12	Typhi	SRST2
+13	Low confidence	SRST2
+14	Low confidence	SRST2
+15	Low confidence	SRST2
+16	Typhi	SRST2
+17	Typhi	SRST2
+18	Low confidence	SRST2
+19	Low confidence	SRST2
+20	Low confidence	SRST2
+21	Low confidence	SRST2
+22	Low confidence	SRST2
+23	Low confidence	SRST2
+24	Low confidence	SRST2
+25	Low confidence	SRST2
+26	Low confidence	SRST2
+27	Low confidence	SRST2
+28	Low confidence	SRST2
+29	Low confidence	SRST2
+30	Low confidence	SRST2
+31	Low confidence	SRST2
+32	Low confidence	SRST2
+33	Weltevreden	SRST2
+34	Weltevreden	SRST2
+35	Low confidence	SRST2
+36	Weltevreden	SRST2
+37	Weltevreden	SRST2
+38	Low confidence	SRST2
+39	Weltevreden	SRST2
+40	Weltevreden	SRST2
+41	Weltevreden	SRST2
+42	Weltevreden	SRST2
+43	Weltevreden	SRST2
+44	Weltevreden	SRST2
+45	Weltevreden	SRST2
+46	Weltevreden	SRST2
+47	Weltevreden	SRST2
+48	Weltevreden	SRST2
+49	Weltevreden	SRST2
+1	Typhi	mlst
+2	Typhi	mlst
+3	Typhi	mlst
+4	Typhi	mlst
+5	Typhi	mlst
+6	Typhi	mlst
+7	Typhi	mlst
+8	Low confidence	mlst
+9	Typhi	mlst
+10	Low confidence	mlst
+11	Low confidence	mlst
+12	Low confidence	mlst
+13	Low confidence	mlst
+14	Low confidence	mlst
+15	Low confidence	mlst
+16	Low confidence	mlst
+17	Low confidence	mlst
+18	Low confidence	mlst
+19	Low confidence	mlst
+20	Low confidence	mlst
+21	Low confidence	mlst
+22	Low confidence	mlst
+23	Low confidence	mlst
+24	Low confidence	mlst
+25	Low confidence	mlst
+26	Low confidence	mlst
+27	Low confidence	mlst
+28	Low confidence	mlst
+29	Low confidence	mlst
+30	Low confidence	mlst
+31	Low confidence	mlst
+32	Weltevreden	mlst
+33	Weltevreden	mlst
+34	Weltevreden	mlst
+35	Weltevreden	mlst
+36	Weltevreden	mlst
+37	Weltevreden	mlst
+38	Weltevreden	mlst
+39	Weltevreden	mlst
+40	Weltevreden	mlst
+41	Weltevreden	mlst
+42	Weltevreden	mlst
+43	Weltevreden	mlst
+44	Weltevreden	mlst
+45	Weltevreden	mlst
+46	Weltevreden	mlst
+47	Weltevreden	mlst
+48	Weltevreden	mlst
+49	Weltevreden	mlst
+1	Typhi	mlst_check
+2	Typhi	mlst_check
+3	Typhi	mlst_check
+4	Typhi	mlst_check
+5	Typhi	mlst_check
+6	Typhi	mlst_check
+7	Typhi	mlst_check
+8	Low confidence	mlst_check
+9	Typhi	mlst_check
+10	Low confidence	mlst_check
+11	Low confidence	mlst_check
+12	Low confidence	mlst_check
+13	Low confidence	mlst_check
+14	Low confidence	mlst_check
+15	Low confidence	mlst_check
+16	Low confidence	mlst_check
+17	Low confidence	mlst_check
+18	Low confidence	mlst_check
+19	Low confidence	mlst_check
+20	Low confidence	mlst_check
+21	Low confidence	mlst_check
+22	Low confidence	mlst_check
+23	Low confidence	mlst_check
+24	Low confidence	mlst_check
+25	Low confidence	mlst_check
+26	Low confidence	mlst_check
+27	Low confidence	mlst_check
+28	Low confidence	mlst_check
+29	Low confidence	mlst_check
+30	Low confidence	mlst_check
+31	Low confidence	mlst_check
+32	Weltevreden	mlst_check
+33	Weltevreden	mlst_check
+34	Weltevreden	mlst_check
+35	Weltevreden	mlst_check
+36	Weltevreden	mlst_check
+37	Weltevreden	mlst_check
+38	Weltevreden	mlst_check
+39	Weltevreden	mlst_check
+40	Weltevreden	mlst_check
+41	Weltevreden	mlst_check
+42	Weltevreden	mlst_check
+43	Weltevreden	mlst_check
+44	Weltevreden	mlst_check
+45	Weltevreden	mlst_check
+46	Weltevreden	mlst_check
+47	Weltevreden	mlst_check
+48	Weltevreden	mlst_check
+49	Weltevreden	mlst_check
+1	Typhi	MOST
+2	Typhi	MOST
+3	Typhi	MOST
+4	Typhi	MOST
+5	Low confidence	MOST
+6	Low confidence	MOST
+7	Low confidence	MOST
+8	Low confidence	MOST
+9	Low confidence	MOST
+10	Low confidence	MOST
+11	Low confidence	MOST
+12	Low confidence	MOST
+13	Low confidence	MOST
+14	Low confidence	MOST
+15	Low confidence	MOST
+16	Low confidence	MOST
+17	Low confidence	MOST
+18	Low confidence	MOST
+19	Low confidence	MOST
+20	Low confidence	MOST
+21	Low confidence	MOST
+22	Low confidence	MOST
+23	Low confidence	MOST
+24	Low confidence	MOST
+25	Low confidence	MOST
+26	Low confidence	MOST
+27	Low confidence	MOST
+28	Low confidence	MOST
+29	Low confidence	MOST
+30	Low confidence	MOST
+31	Low confidence	MOST
+32	Low confidence	MOST
+33	Low confidence	MOST
+34	Low confidence	MOST
+35	Low confidence	MOST
+36	Low confidence	MOST
+37	Low confidence	MOST
+38	Low confidence	MOST
+39	Low confidence	MOST
+40	Low confidence	MOST
+41	Low confidence	MOST
+42	Low confidence	MOST
+43	Low confidence	MOST
+44	Low confidence	MOST
+45	Weltevreden	MOST
+46	Weltevreden	MOST
+47	Weltevreden	MOST
+48	Weltevreden	MOST
+49	Weltevreden	MOST

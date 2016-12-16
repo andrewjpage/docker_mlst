@@ -1,0 +1,16 @@
+version: '2'
+services:
+  ariba:
+    build: ../ariba
+  mlst:
+    build: ../mlst
+  mlst_check:
+    build: ../mlst_check 
+  MOST:
+    build: ../MOST
+  spades:
+    build: ../spades
+  srst2:
+    build: ../srst2
+  stringMLST:
+    build: ../stringMLST
