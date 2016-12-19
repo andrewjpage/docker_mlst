@@ -1,6 +1,6 @@
 #! /bin/bash
 # Given a directory containing FASTQ files, and an output directory, run using Docker.
-# run_most.sh /mnt/data/coverage /data/MOST most
+# run_most.sh /mnt/data/coverage /data/MOST compose_most
 
 if [ $# -ne 3 ]
 then

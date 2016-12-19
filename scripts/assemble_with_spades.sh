@@ -12,7 +12,7 @@ fi
 HOST_BASE=$1
 INPUT_DIRECTORY=$2
 OUTPUT_DIRECTORY=$3
-DOCKER_HASH=spades
+DOCKER_HASH=compose_spades
 
 mkdir -p $OUTPUT_DIRECTORY
 for FORWARD_FILE in $(find ${HOST_BASE} -type f -name "*_1.fastq.gz");
