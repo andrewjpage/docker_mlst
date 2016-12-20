@@ -22,5 +22,8 @@ for FORWARD_FILE in $(find ${HOST_BASE} -type f -name "*_1.fastq.gz");
     BASE_NAME=${FORWARD_FILE/_1.fastq.gz/}
     BASE_NAME=${BASE_NAME##*/}
     
-    { time docker run -d --rm -v ${HOST_BASE}:/data ${DOCKER_HASH} spades.py -t 1 -1 ${FORWARD_FILE} -2 ${REVERSE_FILE} -o ${OUTPUT_DIRECTORY}/${BASE_NAME} --phred-offset 33  > ${OUTPUT_DIRECTORY}/output_${BASE_NAME} ; }  2> ${HOST_BASE}/fastas/timings_${BASE_NAME}
+    if [ ! -f ${HOST_BASE}/fastas/${BASE_NAME}/contigs.fasta ]; then
+       { time docker run -it --rm -v ${HOST_BASE}:/data ${DOCKER_HASH} spades.py --only-assembler  -t 1 -1 ${FORWARD_FILE} -2 ${REVERSE_FILE} -o ${OUTPUT_DIRECTORY}/${BASE_NAME} --phred-offset 33  > ${OUTPUT_DIRECTORY}/output_${BASE_NAME} ; }  2> ${HOST_BASE}/fastas/timings_${BASE_NAME}
+    fi
+    
 done
