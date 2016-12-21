@@ -15,7 +15,11 @@ RUN apt-get update -qq && apt-get install -y git bowtie2 cd-hit fastaq libc6 lib
 #
 RUN git clone -b pubmlst https://github.com/martinghunt/ariba.git && cd ariba && python3 setup.py install
 
-RUN cd / && ariba pubmlstget 'Salmonella enterica' salmonella_db
+RUN cd / && ariba pubmlstget 'Salmonella enterica' salmonella_enterica_db
+RUN cd / && ariba pubmlstget 'Campylobacter jejuni' campylobacter_jejuni_db
+RUN cd / && ariba pubmlstget 'Listeria monocytogenes' listeria_monocytogenes_db
+RUN cd / && ariba pubmlstget 'Escherichia coli#1' escherichia_coli_db
+
 
 WORKDIR /data
 
