@@ -1,4 +1,4 @@
-FROM sangerpathogens:ariba
+FROM sangerpathogens/ariba
 
 #
 #  Authorship
