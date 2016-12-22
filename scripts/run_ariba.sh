@@ -5,8 +5,8 @@
 if [ $# -ne 4 ]
 then
     echo "Usage: `basename $0` host_base output_directory docker_image database"
-    echo "example: ./run_ariba.sh /mnt/data/coverage /data/ariba compose_ariba salmonella_db"
-    echo "Databases available: salmonella_db campylobacter_jejuni_db listeria_monocytogenes_db escherichia_coli_db"
+    echo "example: ./run_ariba.sh /mnt/data/coverage /data/ariba compose_ariba salmonella_enterica_db"
+    echo "Databases available: salmonella_enterica_db campylobacter_jejuni_db listeria_monocytogenes_db escherichia_coli_db"
     exit 1
 fi
 

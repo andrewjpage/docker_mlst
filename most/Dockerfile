@@ -5,7 +5,7 @@ RUN apt-get update -qq && apt-get install -y srst2 libxml2-dev libxslt1-dev pyth
 
 RUN wget https://github.com/samtools/samtools/archive/0.1.18.tar.gz && tar xf 0.1.18.tar.gz && cd /samtools-0.1.18 && make
 
-RUN git clone https://github.com/phe-bioinformatics/MOST.git
+RUN git clone https://github.com/andrewjpage/MOST.git
 
 ENV PATH /MOST:/samtools-0.1.18:$PATH
 ENV PYTHONPATH /MOST/modules:$PYTHONPATH
