@@ -5,13 +5,21 @@ RUN apt-get update -qq && apt-get install -y git wget samtools bedtools bwa gcc 
 
 RUN pip install pyfaidx 
 
-RUN git clone https://github.com/anujg1991/stringMLST.git
+RUN git clone https://github.com/andrewjpage/stringMLST.git
 
-RUN cd /stringMLST/datasets && unzip Salmonella_enterica.zip && unzip Campylobacter_jejuni.zip
+RUN cd /stringMLST/datasets        && \
+    unzip Salmonella_enterica.zip  && \
+    unzip Campylobacter_jejuni.zip && \
+    unzip Escherichia_coli_1.zip   && \
+    unzip Listeria_monocytogenes.zip
 
 ENV PATH /stringMLST:$PATH
 
-RUN cd /stringMLST && stringMLST.py --buildDB -c /stringMLST/datasets/Salmonella_enterica/config.txt -k 35 -P SE  && stringMLST.py --buildDB -c /stringMLST/datasets/Campylobacter_jejuni/config.txt -k 35 -P CJ 
+RUN cd /stringMLST && \
+    stringMLST.py --buildDB -c /stringMLST/datasets/Salmonella_enterica/config.txt -k 35 -P SE  && \
+    stringMLST.py --buildDB -c /stringMLST/datasets/Campylobacter_jejuni/config.txt -k 35 -P CJ && \
+    stringMLST.py --buildDB -c /stringMLST/datasets/Listeria_monocytogenes/config.txt -k 35 -P LM && \
+    stringMLST.py --buildDB -c /stringMLST/datasets/Escherichia_coli_1/config.txt -k 35 -P EC 
 
 WORKDIR /data
 
