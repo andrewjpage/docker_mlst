@@ -5,7 +5,7 @@ RUN apt-get update -qq && apt-get install -y git wget samtools bedtools bwa gcc 
 
 RUN pip install pyfaidx 
 
-RUN git clone https://github.com/andrewjpage/stringMLST.git
+RUN git clone https://github.com/anujg1991/stringMLST.git
 
 RUN cd /stringMLST/datasets        && \
     unzip Salmonella_enterica.zip  && \
