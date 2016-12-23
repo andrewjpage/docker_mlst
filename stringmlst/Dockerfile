@@ -13,6 +13,9 @@ RUN cd /stringMLST/datasets        && \
     unzip Escherichia_coli_1.zip   && \
     unzip Listeria_monocytogenes.zip
 
+# Ecoli has dash instead of underscore which causes it to crash
+RUN sed -i 's/-/_/' /stringMLST/datasets/Escherichia_coli_1/*.tfa
+
 ENV PATH /stringMLST:$PATH
 
 RUN cd /stringMLST && \
