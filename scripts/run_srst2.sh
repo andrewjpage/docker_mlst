@@ -27,20 +27,23 @@ for FORWARD_FILE in $(find ${HOST_BASE} -type f -name "*_1.fastq.gz");
     BASE_NAME=${FORWARD_FILE/_1.fastq.gz/results}
     BASE_NAME=${BASE_NAME##*/}
     
-    COMMAND_TO_RUN="srst2 --output ${OUTPUT_DIRECTORY}/results_${BASE_NAME} --input_pe ${FORWARD_FILE} ${REVERSE_FILE}"
+    COMMAND_TO_RUN="srst2 --output ${OUTPUT_DIRECTORY}/results_${BASE_NAME} --input_pe ${FORWARD_FILE}  ${REVERSE_FILE}"
     
     if [[ $DATABASE == "Salmonella_enterica" ]]; then
-       COMMAND_TO_RUN="$COMMAND_TO_RUN --mlst_db /mlst_databases/senterica/Salmonella_enterica.fasta --mlst_definitions /mlst_databases/senterica/senterica.txt --mlst_delimiter '-' "
+       COMMAND_TO_RUN="$COMMAND_TO_RUN --mlst_db /mlst_databases/senterica/Salmonella_enterica.fasta --mlst_definitions /mlst_databases/senterica/senterica.txt "
+       { time docker run --rm -v ${HOST_BASE}:/data ${DOCKER_HASH} ${COMMAND_TO_RUN} > ${OUTPUT_DIRECTORY}/output_${BASE_NAME} ; }  2> ${HOST_BASE}/${SOFTWARE_NAME}/timings_${BASE_NAME}
+           
     elif [[ $DATABASE == "Campylobacter_jejuni" ]]; then
-       COMMAND_TO_RUN="$COMMAND_TO_RUN --mlst_db /mlst_databases/cjejuni/Campylobacter_jejuni.fasta --mlst_definitions /mlst_databases/cjejuni/campylobacter.txt --mlst_delimiter '_' "
+       COMMAND_TO_RUN="$COMMAND_TO_RUN --mlst_db /mlst_databases/cjejuni/Campylobacter_jejuni.fasta --mlst_definitions /mlst_databases/cjejuni/campylobacter.txt --mlst_delimiter "
+       { time docker run --rm -v ${HOST_BASE}:/data ${DOCKER_HASH} ${COMMAND_TO_RUN} '_' > ${OUTPUT_DIRECTORY}/output_${BASE_NAME} ; }  2> ${HOST_BASE}/${SOFTWARE_NAME}/timings_${BASE_NAME}
     elif [[ $DATABASE == "Listeria_monocytogenes" ]]; then
-       COMMAND_TO_RUN="$COMMAND_TO_RUN --mlst_db /mlst_databases/lmonocytogenes/Listeria_monocytogenes.fasta --mlst_definitions /mlst_databases/lmonocytogenes/lmonocytogenes.txt --mlst_delimiter '_' "
+       COMMAND_TO_RUN="$COMMAND_TO_RUN --mlst_db /mlst_databases/lmonocytogenes/Listeria_monocytogenes.fasta --mlst_definitions /mlst_databases/lmonocytogenes/lmonocytogenes.txt --mlst_delimiter "
+       { time docker run --rm -v ${HOST_BASE}:/data ${DOCKER_HASH} ${COMMAND_TO_RUN} '_' > ${OUTPUT_DIRECTORY}/output_${BASE_NAME} ; }  2> ${HOST_BASE}/${SOFTWARE_NAME}/timings_${BASE_NAME}
     elif [[ $DATABASE == "Escherichia_coli" ]]; then
-       COMMAND_TO_RUN="$COMMAND_TO_RUN --mlst_db /mlst_databases/ecoli/Escherichia_coli#1.fasta --mlst_definitions /mlst_databases/ecoli/ecoli.txt --mlst_delimiter '-' " 
+       COMMAND_TO_RUN="$COMMAND_TO_RUN --mlst_db /mlst_databases/ecoli/Escherichia_coli#1.fasta --mlst_definitions /mlst_databases/ecoli/ecoli.txt "
+       { time docker run --rm -v ${HOST_BASE}:/data ${DOCKER_HASH} ${COMMAND_TO_RUN} > ${OUTPUT_DIRECTORY}/output_${BASE_NAME} ; }  2> ${HOST_BASE}/${SOFTWARE_NAME}/timings_${BASE_NAME}
 else
         echo "No valid database provided"
-    fi  
-
-    { time docker run --rm -v ${HOST_BASE}:/data ${DOCKER_HASH} ${COMMAND_TO_RUN} > ${OUTPUT_DIRECTORY}/output_${BASE_NAME} ; }  2> ${HOST_BASE}/${SOFTWARE_NAME}/timings_${BASE_NAME}
+    fi
      
 done

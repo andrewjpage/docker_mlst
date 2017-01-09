@@ -1,16 +1,17 @@
 #! /bin/bash
 # Given a directory containing spades assemblies, and an output directory, run using Docker.
-# run_mlst_check.sh /mnt/data/coverage /data/mlst_check compose_mlst_check
+# run_mlst_check.sh /mnt/data/coverage /data/mlst_check compose_mlst_check "Salmonella enterica"
 
-if [ $# -ne 3 ]
+if [ $# -ne 4 ]
 then
-    echo "Usage: `basename $0` host_base output_directory docker_hash"
+    echo "Usage: `basename $0` host_base output_directory docker_hash database"
     exit 1
 fi
 
 HOST_BASE=$1
 OUTPUT_DIRECTORY=$2
 DOCKER_HASH=$3
+DATABASE=$4
 
 INPUT_DIRECTORY=/data/
 SOFTWARE_NAME=mlst_check
@@ -23,7 +24,7 @@ for FASTA_FILE in $(find ${HOST_BASE} -type f -name "contigs.fasta");
     BASE_NAME=${FASTA_FILE/\/contigs.fasta/}
     BASE_NAME={ basename $BASE_NAME }
     BASE_NAME=${BASE_NAME##*/}
-    { time docker run --rm -v ${HOST_BASE}:/data ${DOCKER_HASH} get_sequence_type -s 'Salmonella enterica' -o ${OUTPUT_DIRECTORY}/results_${BASE_NAME}  ${FASTA_FILE} > ${HOST_BASE}/${SOFTWARE_NAME}/output_${BASE_NAME} ; }  2> ${HOST_BASE}/${SOFTWARE_NAME}/timings_${BASE_NAME}
+    { time docker run --rm -v ${HOST_BASE}:/data ${DOCKER_HASH} get_sequence_type -s '${DATABASE}' -o ${OUTPUT_DIRECTORY}/results_${BASE_NAME}  ${FASTA_FILE} > ${HOST_BASE}/${SOFTWARE_NAME}/output_${BASE_NAME} ; }  2> ${HOST_BASE}/${SOFTWARE_NAME}/timings_${BASE_NAME}
 done
 
 
