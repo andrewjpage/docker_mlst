@@ -1,17 +1,17 @@
 FROM debian:testing
 MAINTAINER ap13@sanger.ac.uk
 
-RUN apt-get update -qq && apt-get install -y srst2
+RUN apt-get update -qq && apt-get install -y bowtie2 cd-hit python python-biopython python-scipy samtools python-rpy2 python-pip git
 
-RUN chmod +x /usr/share/srst2/srst2.py
+RUN pip install git+https://github.com/katholt/srst2
 
-RUN mkdir -p /mlst_databases/senterica && cd /mlst_databases/senterica && python /usr/share/srst2/getmlst.py --species "Salmonella enterica"
+RUN mkdir -p /mlst_databases/senterica && cd /mlst_databases/senterica && getmlst.py --species "Salmonella enterica"
 
-RUN mkdir -p /mlst_databases/cjejuni && cd /mlst_databases/cjejuni && python /usr/share/srst2/getmlst.py --species "Campylobacter jejuni"
+RUN mkdir -p /mlst_databases/cjejuni && cd /mlst_databases/cjejuni && getmlst.py --species "Campylobacter jejuni"
 
-RUN mkdir -p /mlst_databases/lmonocytogenes && cd /mlst_databases/lmonocytogenes && python /usr/share/srst2/getmlst.py --species "Listeria monocytogenes"
+RUN mkdir -p /mlst_databases/lmonocytogenes && cd /mlst_databases/lmonocytogenes && getmlst.py --species "Listeria monocytogenes"
 
-RUN mkdir -p /mlst_databases/ecoli && cd /mlst_databases/ecoli && python /usr/share/srst2/getmlst.py --species "Escherichia coli#1"
+RUN mkdir -p /mlst_databases/ecoli && cd /mlst_databases/ecoli && getmlst.py --species "Escherichia coli#1"
 
 
 WORKDIR /data
