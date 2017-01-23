@@ -1,102 +1,53 @@
 Mix	ST	Software
-1	Typhi	stringMLST
-2	Typhi	stringMLST
-3	Typhi	stringMLST
-4	Typhi	stringMLST
-5	Typhi	stringMLST
-6	Typhi	stringMLST
-7	Typhi	stringMLST
-8	Typhi	stringMLST
-9	Typhi	stringMLST
-10	Typhi	stringMLST
-11	Typhi	stringMLST
-12	Typhi	stringMLST
-13	Typhi	stringMLST
-14	Typhi	stringMLST
-15	Typhi	stringMLST
-16	Typhi	stringMLST
-17	Typhi	stringMLST
-18	Typhi	stringMLST
-19	False Positive	stringMLST
-20	False Positive	stringMLST
-21	Low confidence	stringMLST
-22	Low confidence	stringMLST
-23	Low confidence	stringMLST
-24	Low confidence	stringMLST
-25	Low confidence	stringMLST
-26	Low confidence	stringMLST
-27	Weltevreden	stringMLST
-28	Weltevreden	stringMLST
-29	Low confidence	stringMLST
-30	Low confidence	stringMLST
-31	Low confidence	stringMLST
-32	Weltevreden	stringMLST
-33	Weltevreden	stringMLST
-34	Weltevreden	stringMLST
-35	Weltevreden	stringMLST
-36	Weltevreden	stringMLST
-37	Weltevreden	stringMLST
-38	Weltevreden	stringMLST
-39	Weltevreden	stringMLST
-40	Weltevreden	stringMLST
-41	Weltevreden	stringMLST
-42	Weltevreden	stringMLST
-43	Weltevreden	stringMLST
-44	Weltevreden	stringMLST
-45	Weltevreden	stringMLST
-46	Weltevreden	stringMLST
-47	Weltevreden	stringMLST
-48	Weltevreden	stringMLST
-49	Weltevreden	stringMLST
-1	Typhi	SRST2
-2	Typhi	SRST2
-3	Typhi	SRST2
-4	Typhi	SRST2
-5	Typhi	SRST2
-6	Typhi	SRST2
-7	Typhi	SRST2
-8	Typhi	SRST2
-9	Typhi	SRST2
-10	Typhi	SRST2
-11	Low confidence	SRST2
-12	Typhi	SRST2
-13	Low confidence	SRST2
-14	Low confidence	SRST2
-15	Low confidence	SRST2
-16	Typhi	SRST2
-17	Typhi	SRST2
-18	Low confidence	SRST2
-19	Low confidence	SRST2
-20	Low confidence	SRST2
-21	Low confidence	SRST2
-22	Low confidence	SRST2
-23	Low confidence	SRST2
-24	Low confidence	SRST2
-25	Low confidence	SRST2
-26	Low confidence	SRST2
-27	Low confidence	SRST2
-28	Low confidence	SRST2
-29	Low confidence	SRST2
-30	Low confidence	SRST2
-31	Low confidence	SRST2
-32	Low confidence	SRST2
-33	Weltevreden	SRST2
-34	Weltevreden	SRST2
-35	Low confidence	SRST2
-36	Weltevreden	SRST2
-37	Weltevreden	SRST2
-38	Low confidence	SRST2
-39	Weltevreden	SRST2
-40	Weltevreden	SRST2
-41	Weltevreden	SRST2
-42	Weltevreden	SRST2
-43	Weltevreden	SRST2
-44	Weltevreden	SRST2
-45	Weltevreden	SRST2
-46	Weltevreden	SRST2
-47	Weltevreden	SRST2
-48	Weltevreden	SRST2
-49	Weltevreden	SRST2
+1	Typhi	Ariba
+2	Typhi	Ariba
+3	Typhi	Ariba
+4	Typhi	Ariba
+5	Low confidence	Ariba
+6	Low confidence	Ariba
+7	Low confidence	Ariba
+8	Low confidence	Ariba
+9	Low confidence	Ariba
+10	Low confidence	Ariba
+11	Low confidence	Ariba
+12	Low confidence	Ariba
+13	Low confidence	Ariba
+14	Low confidence	Ariba
+15	Low confidence	Ariba
+16	Low confidence	Ariba
+17	Low confidence	Ariba
+18	Low confidence	Ariba
+19	Low confidence	Ariba
+20	Low confidence	Ariba
+21	Low confidence	Ariba
+22	Low confidence	Ariba
+23	Low confidence	Ariba
+24	Low confidence	Ariba
+25	Low confidence	Ariba
+26	Low confidence	Ariba
+27	Low confidence	Ariba
+28	Low confidence	Ariba
+29	Low confidence	Ariba
+30	Low confidence	Ariba
+31	Low confidence	Ariba
+32	Low confidence	Ariba
+33	Low confidence	Ariba
+34	Low confidence	Ariba
+35	Low confidence	Ariba
+36	Low confidence	Ariba
+37	Low confidence	Ariba
+38	Low confidence	Ariba
+39	Low confidence	Ariba
+40	Low confidence	Ariba
+41	Low confidence	Ariba
+42	Low confidence	Ariba
+43	Low confidence	Ariba
+44	Low confidence	Ariba
+45	Low confidence	Ariba
+46	Low confidence	Ariba
+47	Weltevreden	Ariba
+48	Weltevreden	Ariba
+49	Weltevreden	Ariba
 1	Typhi	mlst
 2	Typhi	mlst
 3	Typhi	mlst
@@ -244,52 +195,101 @@ Mix	ST	Software
 47	Weltevreden	MOST
 48	Weltevreden	MOST
 49	Weltevreden	MOST
-1	Typhi	Ariba
-2	Typhi	Ariba
-3	Typhi	Ariba
-4	Typhi	Ariba
-5	Low confidence	Ariba
-6	Low confidence	Ariba
-7	Low confidence	Ariba
-8	Low confidence	Ariba
-9	Low confidence	Ariba
-10	Low confidence	Ariba
-11	Low confidence	Ariba
-12	Low confidence	Ariba
-13	Low confidence	Ariba
-14	Low confidence	Ariba
-15	Low confidence	Ariba
-16	Low confidence	Ariba
-17	Low confidence	Ariba
-18	Low confidence	Ariba
-19	Low confidence	Ariba
-20	Low confidence	Ariba
-21	Low confidence	Ariba
-22	Low confidence	Ariba
-23	Low confidence	Ariba
-24	Low confidence	Ariba
-25	Low confidence	Ariba
-26	Low confidence	Ariba
-27	Low confidence	Ariba
-28	Low confidence	Ariba
-29	Low confidence	Ariba
-30	Low confidence	Ariba
-31	Low confidence	Ariba
-32	Low confidence	Ariba
-33	Low confidence	Ariba
-34	Low confidence	Ariba
-35	Low confidence	Ariba
-36	Low confidence	Ariba
-37	Low confidence	Ariba
-38	Low confidence	Ariba
-39	Low confidence	Ariba
-40	Low confidence	Ariba
-41	Low confidence	Ariba
-42	Low confidence	Ariba
-43	Low confidence	Ariba
-44	Low confidence	Ariba
-45	Low confidence	Ariba
-46	Low confidence	Ariba
-47	Weltevreden	Ariba
-48	Weltevreden	Ariba
-49	Weltevreden	Ariba
+1	Typhi	SRST2
+2	Typhi	SRST2
+3	Typhi	SRST2
+4	Typhi	SRST2
+5	Typhi	SRST2
+6	Typhi	SRST2
+7	Typhi	SRST2
+8	Typhi	SRST2
+9	Typhi	SRST2
+10	Typhi	SRST2
+11	Low confidence	SRST2
+12	Typhi	SRST2
+13	Low confidence	SRST2
+14	Low confidence	SRST2
+15	Low confidence	SRST2
+16	Typhi	SRST2
+17	Typhi	SRST2
+18	Low confidence	SRST2
+19	Low confidence	SRST2
+20	Low confidence	SRST2
+21	Low confidence	SRST2
+22	Low confidence	SRST2
+23	Low confidence	SRST2
+24	Low confidence	SRST2
+25	Low confidence	SRST2
+26	Low confidence	SRST2
+27	Low confidence	SRST2
+28	Low confidence	SRST2
+29	Low confidence	SRST2
+30	Low confidence	SRST2
+31	Low confidence	SRST2
+32	Low confidence	SRST2
+33	Weltevreden	SRST2
+34	Weltevreden	SRST2
+35	Low confidence	SRST2
+36	Weltevreden	SRST2
+37	Weltevreden	SRST2
+38	Low confidence	SRST2
+39	Weltevreden	SRST2
+40	Weltevreden	SRST2
+41	Weltevreden	SRST2
+42	Weltevreden	SRST2
+43	Weltevreden	SRST2
+44	Weltevreden	SRST2
+45	Weltevreden	SRST2
+46	Weltevreden	SRST2
+47	Weltevreden	SRST2
+48	Weltevreden	SRST2
+49	Weltevreden	SRST2
+1	Typhi	stringMLST
+2	Typhi	stringMLST
+3	Typhi	stringMLST
+4	Typhi	stringMLST
+5	Typhi	stringMLST
+6	Typhi	stringMLST
+7	Typhi	stringMLST
+8	Typhi	stringMLST
+9	Typhi	stringMLST
+10	Typhi	stringMLST
+11	Typhi	stringMLST
+12	Typhi	stringMLST
+13	Typhi	stringMLST
+14	Typhi	stringMLST
+15	Typhi	stringMLST
+16	Typhi	stringMLST
+17	Typhi	stringMLST
+18	Typhi	stringMLST
+19	False Positive	stringMLST
+20	False Positive	stringMLST
+21	Low confidence	stringMLST
+22	Low confidence	stringMLST
+23	Low confidence	stringMLST
+24	Low confidence	stringMLST
+25	Low confidence	stringMLST
+26	Low confidence	stringMLST
+27	Weltevreden	stringMLST
+28	Weltevreden	stringMLST
+29	Low confidence	stringMLST
+30	Low confidence	stringMLST
+31	Low confidence	stringMLST
+32	Weltevreden	stringMLST
+33	Weltevreden	stringMLST
+34	Weltevreden	stringMLST
+35	Weltevreden	stringMLST
+36	Weltevreden	stringMLST
+37	Weltevreden	stringMLST
+38	Weltevreden	stringMLST
+39	Weltevreden	stringMLST
+40	Weltevreden	stringMLST
+41	Weltevreden	stringMLST
+42	Weltevreden	stringMLST
+43	Weltevreden	stringMLST
+44	Weltevreden	stringMLST
+45	Weltevreden	stringMLST
+46	Weltevreden	stringMLST
+47	Weltevreden	stringMLST
+48	Weltevreden	stringMLST
+49	Weltevreden	stringMLST
