@@ -1,7 +1,7 @@
 FROM debian:testing
 MAINTAINER ap13@sanger.ac.uk
 
-RUN apt-get update -qq && apt-get install -y bowtie2 cd-hit python python-biopython python-scipy python-rpy2 python-pip git gcc make 
+RUN apt-get update -qq && apt-get install -y bowtie2 cd-hit python python-biopython python-scipy python-rpy2 python-pip git gcc make wget
 
 RUN wget https://github.com/samtools/samtools/archive/0.1.18.tar.gz && tar xf 0.1.18.tar.gz && cd /samtools-0.1.18 && make
 
