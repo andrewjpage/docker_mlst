@@ -1,8 +1,8 @@
-Mix	ST	Software
-1	Typhi	Ariba
-2	Typhi	Ariba
-3	Typhi	Ariba
-4	Typhi	Ariba
+Mix	Predicted ST	Software
+1	ST 19 (S.Typhi)	Ariba
+2	ST 19 (S.Typhi)	Ariba
+3	ST 19 (S.Typhi)	Ariba
+4	ST 19 (S.Typhi)	Ariba
 5	Low confidence	Ariba
 6	Low confidence	Ariba
 7	Low confidence	Ariba
@@ -45,18 +45,18 @@ Mix	ST	Software
 44	Low confidence	Ariba
 45	Low confidence	Ariba
 46	Low confidence	Ariba
-47	Weltevreden	Ariba
-48	Weltevreden	Ariba
-49	Weltevreden	Ariba
-1	Typhi	mlst
-2	Typhi	mlst
-3	Typhi	mlst
-4	Typhi	mlst
-5	Typhi	mlst
-6	Typhi	mlst
-7	Typhi	mlst
+47	ST 365 (S.Weltevreden)	Ariba
+48	ST 365 (S.Weltevreden)	Ariba
+49	ST 365 (S.Weltevreden)	Ariba
+1	ST 19 (S.Typhi)	mlst
+2	ST 19 (S.Typhi)	mlst
+3	ST 19 (S.Typhi)	mlst
+4	ST 19 (S.Typhi)	mlst
+5	ST 19 (S.Typhi)	mlst
+6	ST 19 (S.Typhi)	mlst
+7	ST 19 (S.Typhi)	mlst
 8	Low confidence	mlst
-9	Typhi	mlst
+9	ST 19 (S.Typhi)	mlst
 10	Low confidence	mlst
 11	Low confidence	mlst
 12	Low confidence	mlst
@@ -79,33 +79,33 @@ Mix	ST	Software
 29	Low confidence	mlst
 30	Low confidence	mlst
 31	Low confidence	mlst
-32	Weltevreden	mlst
-33	Weltevreden	mlst
-34	Weltevreden	mlst
-35	Weltevreden	mlst
-36	Weltevreden	mlst
-37	Weltevreden	mlst
-38	Weltevreden	mlst
-39	Weltevreden	mlst
-40	Weltevreden	mlst
-41	Weltevreden	mlst
-42	Weltevreden	mlst
-43	Weltevreden	mlst
-44	Weltevreden	mlst
-45	Weltevreden	mlst
-46	Weltevreden	mlst
-47	Weltevreden	mlst
-48	Weltevreden	mlst
-49	Weltevreden	mlst
-1	Typhi	mlst_check
-2	Typhi	mlst_check
-3	Typhi	mlst_check
-4	Typhi	mlst_check
-5	Typhi	mlst_check
-6	Typhi	mlst_check
-7	Typhi	mlst_check
+32	ST 365 (S.Weltevreden)	mlst
+33	ST 365 (S.Weltevreden)	mlst
+34	ST 365 (S.Weltevreden)	mlst
+35	ST 365 (S.Weltevreden)	mlst
+36	ST 365 (S.Weltevreden)	mlst
+37	ST 365 (S.Weltevreden)	mlst
+38	ST 365 (S.Weltevreden)	mlst
+39	ST 365 (S.Weltevreden)	mlst
+40	ST 365 (S.Weltevreden)	mlst
+41	ST 365 (S.Weltevreden)	mlst
+42	ST 365 (S.Weltevreden)	mlst
+43	ST 365 (S.Weltevreden)	mlst
+44	ST 365 (S.Weltevreden)	mlst
+45	ST 365 (S.Weltevreden)	mlst
+46	ST 365 (S.Weltevreden)	mlst
+47	ST 365 (S.Weltevreden)	mlst
+48	ST 365 (S.Weltevreden)	mlst
+49	ST 365 (S.Weltevreden)	mlst
+1	ST 19 (S.Typhi)	mlst_check
+2	ST 19 (S.Typhi)	mlst_check
+3	ST 19 (S.Typhi)	mlst_check
+4	ST 19 (S.Typhi)	mlst_check
+5	ST 19 (S.Typhi)	mlst_check
+6	ST 19 (S.Typhi)	mlst_check
+7	ST 19 (S.Typhi)	mlst_check
 8	Low confidence	mlst_check
-9	Typhi	mlst_check
+9	ST 19 (S.Typhi)	mlst_check
 10	Low confidence	mlst_check
 11	Low confidence	mlst_check
 12	Low confidence	mlst_check
@@ -128,28 +128,28 @@ Mix	ST	Software
 29	Low confidence	mlst_check
 30	Low confidence	mlst_check
 31	Low confidence	mlst_check
-32	Weltevreden	mlst_check
-33	Weltevreden	mlst_check
-34	Weltevreden	mlst_check
-35	Weltevreden	mlst_check
-36	Weltevreden	mlst_check
-37	Weltevreden	mlst_check
-38	Weltevreden	mlst_check
-39	Weltevreden	mlst_check
-40	Weltevreden	mlst_check
-41	Weltevreden	mlst_check
-42	Weltevreden	mlst_check
-43	Weltevreden	mlst_check
-44	Weltevreden	mlst_check
-45	Weltevreden	mlst_check
-46	Weltevreden	mlst_check
-47	Weltevreden	mlst_check
-48	Weltevreden	mlst_check
-49	Weltevreden	mlst_check
-1	Typhi	MOST
-2	Typhi	MOST
-3	Typhi	MOST
-4	Typhi	MOST
+32	ST 365 (S.Weltevreden)	mlst_check
+33	ST 365 (S.Weltevreden)	mlst_check
+34	ST 365 (S.Weltevreden)	mlst_check
+35	ST 365 (S.Weltevreden)	mlst_check
+36	ST 365 (S.Weltevreden)	mlst_check
+37	ST 365 (S.Weltevreden)	mlst_check
+38	ST 365 (S.Weltevreden)	mlst_check
+39	ST 365 (S.Weltevreden)	mlst_check
+40	ST 365 (S.Weltevreden)	mlst_check
+41	ST 365 (S.Weltevreden)	mlst_check
+42	ST 365 (S.Weltevreden)	mlst_check
+43	ST 365 (S.Weltevreden)	mlst_check
+44	ST 365 (S.Weltevreden)	mlst_check
+45	ST 365 (S.Weltevreden)	mlst_check
+46	ST 365 (S.Weltevreden)	mlst_check
+47	ST 365 (S.Weltevreden)	mlst_check
+48	ST 365 (S.Weltevreden)	mlst_check
+49	ST 365 (S.Weltevreden)	mlst_check
+1	ST 19 (S.Typhi)	MOST
+2	ST 19 (S.Typhi)	MOST
+3	ST 19 (S.Typhi)	MOST
+4	ST 19 (S.Typhi)	MOST
 5	Low confidence	MOST
 6	Low confidence	MOST
 7	Low confidence	MOST
@@ -190,28 +190,28 @@ Mix	ST	Software
 42	Low confidence	MOST
 43	Low confidence	MOST
 44	Low confidence	MOST
-45	Weltevreden	MOST
-46	Weltevreden	MOST
-47	Weltevreden	MOST
-48	Weltevreden	MOST
-49	Weltevreden	MOST
-1	Typhi	SRST2
-2	Typhi	SRST2
-3	Typhi	SRST2
-4	Typhi	SRST2
-5	Typhi	SRST2
-6	Typhi	SRST2
-7	Typhi	SRST2
-8	Typhi	SRST2
-9	Typhi	SRST2
-10	Typhi	SRST2
+45	ST 365 (S.Weltevreden)	MOST
+46	ST 365 (S.Weltevreden)	MOST
+47	ST 365 (S.Weltevreden)	MOST
+48	ST 365 (S.Weltevreden)	MOST
+49	ST 365 (S.Weltevreden)	MOST
+1	ST 19 (S.Typhi)	SRST2
+2	ST 19 (S.Typhi)	SRST2
+3	ST 19 (S.Typhi)	SRST2
+4	ST 19 (S.Typhi)	SRST2
+5	ST 19 (S.Typhi)	SRST2
+6	ST 19 (S.Typhi)	SRST2
+7	ST 19 (S.Typhi)	SRST2
+8	ST 19 (S.Typhi)	SRST2
+9	ST 19 (S.Typhi)	SRST2
+10	ST 19 (S.Typhi)	SRST2
 11	Low confidence	SRST2
-12	Typhi	SRST2
+12	ST 19 (S.Typhi)	SRST2
 13	Low confidence	SRST2
 14	Low confidence	SRST2
 15	Low confidence	SRST2
-16	Typhi	SRST2
-17	Typhi	SRST2
+16	ST 19 (S.Typhi)	SRST2
+17	ST 19 (S.Typhi)	SRST2
 18	Low confidence	SRST2
 19	Low confidence	SRST2
 20	Low confidence	SRST2
@@ -227,41 +227,41 @@ Mix	ST	Software
 30	Low confidence	SRST2
 31	Low confidence	SRST2
 32	Low confidence	SRST2
-33	Weltevreden	SRST2
-34	Weltevreden	SRST2
+33	ST 365 (S.Weltevreden)	SRST2
+34	ST 365 (S.Weltevreden)	SRST2
 35	Low confidence	SRST2
-36	Weltevreden	SRST2
-37	Weltevreden	SRST2
+36	ST 365 (S.Weltevreden)	SRST2
+37	ST 365 (S.Weltevreden)	SRST2
 38	Low confidence	SRST2
-39	Weltevreden	SRST2
-40	Weltevreden	SRST2
-41	Weltevreden	SRST2
-42	Weltevreden	SRST2
-43	Weltevreden	SRST2
-44	Weltevreden	SRST2
-45	Weltevreden	SRST2
-46	Weltevreden	SRST2
-47	Weltevreden	SRST2
-48	Weltevreden	SRST2
-49	Weltevreden	SRST2
-1	Typhi	stringMLST
-2	Typhi	stringMLST
-3	Typhi	stringMLST
-4	Typhi	stringMLST
-5	Typhi	stringMLST
-6	Typhi	stringMLST
-7	Typhi	stringMLST
-8	Typhi	stringMLST
-9	Typhi	stringMLST
-10	Typhi	stringMLST
-11	Typhi	stringMLST
-12	Typhi	stringMLST
-13	Typhi	stringMLST
-14	Typhi	stringMLST
-15	Typhi	stringMLST
-16	Typhi	stringMLST
-17	Typhi	stringMLST
-18	Typhi	stringMLST
+39	ST 365 (S.Weltevreden)	SRST2
+40	ST 365 (S.Weltevreden)	SRST2
+41	ST 365 (S.Weltevreden)	SRST2
+42	ST 365 (S.Weltevreden)	SRST2
+43	ST 365 (S.Weltevreden)	SRST2
+44	ST 365 (S.Weltevreden)	SRST2
+45	ST 365 (S.Weltevreden)	SRST2
+46	ST 365 (S.Weltevreden)	SRST2
+47	ST 365 (S.Weltevreden)	SRST2
+48	ST 365 (S.Weltevreden)	SRST2
+49	ST 365 (S.Weltevreden)	SRST2
+1	ST 19 (S.Typhi)	stringMLST
+2	ST 19 (S.Typhi)	stringMLST
+3	ST 19 (S.Typhi)	stringMLST
+4	ST 19 (S.Typhi)	stringMLST
+5	ST 19 (S.Typhi)	stringMLST
+6	ST 19 (S.Typhi)	stringMLST
+7	ST 19 (S.Typhi)	stringMLST
+8	ST 19 (S.Typhi)	stringMLST
+9	ST 19 (S.Typhi)	stringMLST
+10	ST 19 (S.Typhi)	stringMLST
+11	ST 19 (S.Typhi)	stringMLST
+12	ST 19 (S.Typhi)	stringMLST
+13	ST 19 (S.Typhi)	stringMLST
+14	ST 19 (S.Typhi)	stringMLST
+15	ST 19 (S.Typhi)	stringMLST
+16	ST 19 (S.Typhi)	stringMLST
+17	ST 19 (S.Typhi)	stringMLST
+18	ST 19 (S.Typhi)	stringMLST
 19	False Positive	stringMLST
 20	False Positive	stringMLST
 21	Low confidence	stringMLST
@@ -270,26 +270,26 @@ Mix	ST	Software
 24	Low confidence	stringMLST
 25	Low confidence	stringMLST
 26	Low confidence	stringMLST
-27	Weltevreden	stringMLST
-28	Weltevreden	stringMLST
+27	ST 365 (S.Weltevreden)	stringMLST
+28	ST 365 (S.Weltevreden)	stringMLST
 29	Low confidence	stringMLST
 30	Low confidence	stringMLST
 31	Low confidence	stringMLST
-32	Weltevreden	stringMLST
-33	Weltevreden	stringMLST
-34	Weltevreden	stringMLST
-35	Weltevreden	stringMLST
-36	Weltevreden	stringMLST
-37	Weltevreden	stringMLST
-38	Weltevreden	stringMLST
-39	Weltevreden	stringMLST
-40	Weltevreden	stringMLST
-41	Weltevreden	stringMLST
-42	Weltevreden	stringMLST
-43	Weltevreden	stringMLST
-44	Weltevreden	stringMLST
-45	Weltevreden	stringMLST
-46	Weltevreden	stringMLST
-47	Weltevreden	stringMLST
-48	Weltevreden	stringMLST
-49	Weltevreden	stringMLST
+32	ST 365 (S.Weltevreden)	stringMLST
+33	ST 365 (S.Weltevreden)	stringMLST
+34	ST 365 (S.Weltevreden)	stringMLST
+35	ST 365 (S.Weltevreden)	stringMLST
+36	ST 365 (S.Weltevreden)	stringMLST
+37	ST 365 (S.Weltevreden)	stringMLST
+38	ST 365 (S.Weltevreden)	stringMLST
+39	ST 365 (S.Weltevreden)	stringMLST
+40	ST 365 (S.Weltevreden)	stringMLST
+41	ST 365 (S.Weltevreden)	stringMLST
+42	ST 365 (S.Weltevreden)	stringMLST
+43	ST 365 (S.Weltevreden)	stringMLST
+44	ST 365 (S.Weltevreden)	stringMLST
+45	ST 365 (S.Weltevreden)	stringMLST
+46	ST 365 (S.Weltevreden)	stringMLST
+47	ST 365 (S.Weltevreden)	stringMLST
+48	ST 365 (S.Weltevreden)	stringMLST
+49	ST 365 (S.Weltevreden)	stringMLST
