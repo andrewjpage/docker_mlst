@@ -13,7 +13,7 @@ ggplot(data = all_data, aes(x = Coverage, y = Time, group = Software, linetype=S
 theme_classic() +
 xlab("Coverage") +
 ylab("Running time(s)")+
-theme_bw(base_size = 16) +  theme(legend.justification=c(1,0),legend.position=c(1,0))+
+theme_bw(base_size = 16) +  theme(legend.justification=c(0,1),legend.position=c(0.05,0.95))+
 ggsave(filename="coverage_running_time.png", scale=1)
 
 
@@ -21,5 +21,5 @@ ggplot(data = all_data, aes(x = Coverage, y = Disk_space, group = Software, line
 theme_classic() +
 xlab("Coverage") +
 ylab("Disk space (bytes)")+
-theme_bw(base_size = 16) +  theme(legend.justification=c(1,0),legend.position=c(1,0))+
+theme_bw(base_size = 16) +  theme(legend.justification=c(0,1),legend.position=c(0.05,0.95))+
 ggsave(filename="coverage_disk_space.png", scale=1)
