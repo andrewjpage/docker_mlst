@@ -1,4 +1,4 @@
-Mix	Predicted ST	Software
+Mix	ST	Software
 1	ST 19 (S.Typhi)	Ariba
 2	ST 19 (S.Typhi)	Ariba
 3	ST 19 (S.Typhi)	Ariba
@@ -97,55 +97,55 @@ Mix	Predicted ST	Software
 47	ST 365 (S.Weltevreden)	mlst
 48	ST 365 (S.Weltevreden)	mlst
 49	ST 365 (S.Weltevreden)	mlst
-1	ST 19 (S.Typhi)	mlst_check
-2	ST 19 (S.Typhi)	mlst_check
-3	ST 19 (S.Typhi)	mlst_check
-4	ST 19 (S.Typhi)	mlst_check
-5	ST 19 (S.Typhi)	mlst_check
-6	ST 19 (S.Typhi)	mlst_check
-7	ST 19 (S.Typhi)	mlst_check
-8	Low confidence	mlst_check
-9	ST 19 (S.Typhi)	mlst_check
-10	Low confidence	mlst_check
-11	Low confidence	mlst_check
-12	Low confidence	mlst_check
-13	Low confidence	mlst_check
-14	Low confidence	mlst_check
-15	Low confidence	mlst_check
-16	Low confidence	mlst_check
-17	Low confidence	mlst_check
-18	Low confidence	mlst_check
-19	Low confidence	mlst_check
-20	Low confidence	mlst_check
-21	Low confidence	mlst_check
-22	Low confidence	mlst_check
-23	Low confidence	mlst_check
-24	Low confidence	mlst_check
-25	Low confidence	mlst_check
-26	Low confidence	mlst_check
-27	Low confidence	mlst_check
-28	Low confidence	mlst_check
-29	Low confidence	mlst_check
-30	Low confidence	mlst_check
-31	Low confidence	mlst_check
-32	ST 365 (S.Weltevreden)	mlst_check
-33	ST 365 (S.Weltevreden)	mlst_check
-34	ST 365 (S.Weltevreden)	mlst_check
-35	ST 365 (S.Weltevreden)	mlst_check
-36	ST 365 (S.Weltevreden)	mlst_check
-37	ST 365 (S.Weltevreden)	mlst_check
-38	ST 365 (S.Weltevreden)	mlst_check
-39	ST 365 (S.Weltevreden)	mlst_check
-40	ST 365 (S.Weltevreden)	mlst_check
-41	ST 365 (S.Weltevreden)	mlst_check
-42	ST 365 (S.Weltevreden)	mlst_check
-43	ST 365 (S.Weltevreden)	mlst_check
-44	ST 365 (S.Weltevreden)	mlst_check
-45	ST 365 (S.Weltevreden)	mlst_check
-46	ST 365 (S.Weltevreden)	mlst_check
-47	ST 365 (S.Weltevreden)	mlst_check
-48	ST 365 (S.Weltevreden)	mlst_check
-49	ST 365 (S.Weltevreden)	mlst_check
+1	ST 19 (S.Typhi)	MLSTcheck
+2	ST 19 (S.Typhi)	MLSTcheck
+3	ST 19 (S.Typhi)	MLSTcheck
+4	ST 19 (S.Typhi)	MLSTcheck
+5	ST 19 (S.Typhi)	MLSTcheck
+6	ST 19 (S.Typhi)	MLSTcheck
+7	ST 19 (S.Typhi)	MLSTcheck
+8	Low confidence	MLSTcheck
+9	ST 19 (S.Typhi)	MLSTcheck
+10	Low confidence	MLSTcheck
+11	Low confidence	MLSTcheck
+12	Low confidence	MLSTcheck
+13	Low confidence	MLSTcheck
+14	Low confidence	MLSTcheck
+15	Low confidence	MLSTcheck
+16	Low confidence	MLSTcheck
+17	Low confidence	MLSTcheck
+18	Low confidence	MLSTcheck
+19	Low confidence	MLSTcheck
+20	Low confidence	MLSTcheck
+21	Low confidence	MLSTcheck
+22	Low confidence	MLSTcheck
+23	Low confidence	MLSTcheck
+24	Low confidence	MLSTcheck
+25	Low confidence	MLSTcheck
+26	Low confidence	MLSTcheck
+27	Low confidence	MLSTcheck
+28	Low confidence	MLSTcheck
+29	Low confidence	MLSTcheck
+30	Low confidence	MLSTcheck
+31	Low confidence	MLSTcheck
+32	ST 365 (S.Weltevreden)	MLSTcheck
+33	ST 365 (S.Weltevreden)	MLSTcheck
+34	ST 365 (S.Weltevreden)	MLSTcheck
+35	ST 365 (S.Weltevreden)	MLSTcheck
+36	ST 365 (S.Weltevreden)	MLSTcheck
+37	ST 365 (S.Weltevreden)	MLSTcheck
+38	ST 365 (S.Weltevreden)	MLSTcheck
+39	ST 365 (S.Weltevreden)	MLSTcheck
+40	ST 365 (S.Weltevreden)	MLSTcheck
+41	ST 365 (S.Weltevreden)	MLSTcheck
+42	ST 365 (S.Weltevreden)	MLSTcheck
+43	ST 365 (S.Weltevreden)	MLSTcheck
+44	ST 365 (S.Weltevreden)	MLSTcheck
+45	ST 365 (S.Weltevreden)	MLSTcheck
+46	ST 365 (S.Weltevreden)	MLSTcheck
+47	ST 365 (S.Weltevreden)	MLSTcheck
+48	ST 365 (S.Weltevreden)	MLSTcheck
+49	ST 365 (S.Weltevreden)	MLSTcheck
 1	ST 19 (S.Typhi)	MOST
 2	ST 19 (S.Typhi)	MOST
 3	ST 19 (S.Typhi)	MOST
